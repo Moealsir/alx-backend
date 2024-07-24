@@ -4,6 +4,7 @@
 
 from BaseCaching import BaseCaching
 
+
 class BasicCache(BaseCaching):
     """ BasicCache class inherits from BaseCaching
     """
