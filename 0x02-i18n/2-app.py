@@ -20,6 +20,7 @@ app.url_map.strict_slashes = False
 babel = Babel(app)
 
 
+@babel.localeselector
 def get_locale() -> str:
     """Retrieves the best matching locale for a web page
     based on the user's preferences."""
